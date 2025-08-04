@@ -29,11 +29,13 @@ Now Let me take you along a journey on finding the right model for the task. It 
     </tr>
   </tbody>
 </table>
+
+That was not enough to convince me to use efficientnet v2s. Yes it is a fantastic SOTA model but still required more resources which is why I started looking more into the mobile Vit models and found mobileViT v2 had about 3 million parameters which provides more room if Id like to include something like segmentation that could potentially take up more resources. 
 <br></br>
 
-# What-s-that-Plant-Disease-
+# What's that plant disease!? It's early blight!
 Open Google Colab for live demo using MobileViT v2 classify disease
-or download yourself and give it a try!
+on your own image (will provide what plants it will be capable of analyzing soon!)
 
 ## <b>Example from the project:</b>
 GradCam was utilized to understand what MobileViT v2 was focusing on. 
